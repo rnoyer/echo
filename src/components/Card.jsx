@@ -1,25 +1,34 @@
-import './Card.scss'
+import "./Card.scss";
+import Pole from "./PoleTag";
+import Wrapper from "./Wrapper";
+import PoleSection from "./PoleSection";
+import ATSection from "./ATSection";
 
-function Card({ discipline, pole, poleTitre, activite, tache, titre, competences, resultats }) {
+function Card({
+  discipline,
+  poleNumber,
+  poleTitre,
+  activite,
+  tache,
+  titre,
+  competences,
+  resultats,
+}) {
   return (
-    <section>
-        <header>
-            <h1>{discipline}</h1>
-            <h2>Pôle {pole}</h2>
-            <p>{poleTitre}</p>
-        </header>
-        <article>
-            <h3>{activite}-{tache}</h3>
-            <p>{titre}</p>
-        </article>
-            <h3>Compétences mobilisées</h3>
-            <p>liste</p>
-        <article>
-            <h3>Résultats attendus</h3>
-            <p>liste</p>
-        </article>
-    </section>
-  )
+    <div className="outer-card">
+      <h1>{discipline}</h1>
+      <section className="inner-card">
+        <PoleSection poleTitre={poleTitre} poleNumber={poleNumber} />
+        <ATSection activite={activite} tache={tache} titre={titre} />
+        <Wrapper title="Résultats attendus" >
+          <p>liste</p>
+        </Wrapper>
+        <Wrapper title="Compétences mobilisées" >
+          <p>liste</p>
+        </Wrapper>
+      </section>
+    </div>
+  );
 }
 
-export default Card
+export default Card;

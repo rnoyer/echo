@@ -1,0 +1,12 @@
+.article-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #989595 ;
+    border-radius: 5px;
+    padding: 5px;
+
+    h3 {
+        margin: unset;
+    }
+}

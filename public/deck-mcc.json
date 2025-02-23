@@ -1,9 +1,9 @@
 [
     {
         "id":1,
-        "discipline":"enseignement pro",
-        "pole": 1,
-        "poleTitre":"Préparation d’une production.",
+        "discipline":"Enseignement Professionnel",
+        "poleNumber": 1,
+        "poleTitre":"Préparation d’une production",
         "activite":"A1",
         "tache":"T1",
         "titre":"Prendre connaissance des données de production et proposer, le cas échéant, des alternatives d’organisation au responsable d’atelier.",
@@ -25,8 +25,8 @@
     },
     {
         "id":2,
-        "discipline":"enseignement pro",
-        "pole": 1,
+        "discipline":"Enseignement Professionnel",
+        "poleNumber": 1,
         "poleTitre":"Préparation d’une production.",
         "activite":"A1",
         "tache":"T2",
@@ -49,8 +49,8 @@
     },
     {
         "id":3,
-        "discipline":"enseignement pro",
-        "pole": 1,
+        "discipline":"Enseignement Professionnel",
+        "poleNumber": 1,
         "poleTitre":"Préparation d’une production.",
         "activite":"A1",
         "tache":"T3",
@@ -73,8 +73,8 @@
     },
     {
         "id":4,
-        "discipline":"enseignement pro",
-        "pole": 1,
+        "discipline":"Enseignement Professionnel",
+        "poleNumber": 1,
         "poleTitre":"Préparation d’une production.",
         "activite":"A1",
         "tache":"T4",
@@ -97,8 +97,8 @@
     },
     {
         "id":5,
-        "discipline":"enseignement pro",
-        "pole": 1,
+        "discipline":"Enseignement Professionnel",
+        "poleNumber": 1,
         "poleTitre":"Préparation d’une production.",
         "activite":"A2",
         "tache":"T1",
@@ -120,8 +120,8 @@
     },
     {
         "id":6,
-        "discipline":"enseignement pro",
-        "pole": 1,
+        "discipline":"Enseignement Professionnel",
+        "poleNumber": 1,
         "poleTitre":"Préparation d’une production.",
         "activite":"A2",
         "tache":"T2",
