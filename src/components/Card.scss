@@ -1,18 +1,25 @@
 .outer-card {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: var(--spacing-medium-100);
     background-color: #ECBB21;
     min-width: 300px;
-    padding: 10px;
+    max-width: 440px;
+    aspect-ratio:  375 / 667 ;
+    padding: var(--spacing-medium-100);
     border-radius: 20px;
 
     .inner-card {
+        flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: var(--spacing-medium-150);
         background-color: white;
-        border-radius: 10px;
-        padding: 10px 5px;
+        border-radius: var(--spacing-medium-100);
+        padding: var(--spacing-medium-100) var(--spacing-mini);
+
+        .wrapper-resultat {
+            flex: 1;
+        }
     }
 }

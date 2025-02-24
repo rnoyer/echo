@@ -1,10 +1,10 @@
 .article-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: var(--spacing-medium);
     border: 1px solid #989595 ;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: var(--spacing-mini);
+    padding: var(--spacing-mini);
 
     h3 {
         margin: unset;

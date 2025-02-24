@@ -5,30 +5,33 @@
         "activite content"
         "tache content";
     background-color: #DEDEDE;
-    border-radius: 5px;
+    border-radius: var(--spacing-mini);
 }
 
 .activite{
     grid-area: activite;
-    border-radius: 5px 0 0 0;
+    align-items: flex-end;
+    border-radius: var(--spacing-mini) 0 0 0;
 }
 
 .tache{
     grid-area: tache;
-    border-radius: 0 0 0 5px;
+    align-items: flex-start;
+    border-radius: 0 0 0 var(--spacing-mini);
 }
 
 .activite, .tache {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #D9AD1E;
     font-size: 20px;
     font-weight: 700;
-    padding: 5px;
+    padding: 0 var(--spacing-mini);
 }
 
 .activite-tache-content {
     grid-area: content;
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-mini);
 }

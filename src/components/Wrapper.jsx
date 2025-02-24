@@ -1,8 +1,8 @@
 import "./Wrapper.scss";
 
-function Wrapper({ title, children }) {
+function Wrapper({ title, children, classCustom }) {
   return (
-    <article className="article-wrapper">
+    <article className={`article-wrapper ${classCustom}`}>
       <h3>{title}</h3>
       {children}
     </article>
