@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const fetchDeckData = async () => {
       try {
-        const deckData = await getDeck("/deck-mcc.json");
+        const deckData = await getDeck("./deck-mcc.json");
         setCardsDeck(deckData);
       } catch (error) {
         console.log(error);

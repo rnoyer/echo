@@ -7,7 +7,7 @@ import Err404 from './pages/Err404.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/echo">
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='/echo' element={<App />} />
