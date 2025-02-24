@@ -6,7 +6,7 @@ function Tile({ tileContent, sideIcon, iconBehaviour ="top" }) {
     <article className="tile">
         
         <div className={`side-icon bold-p ${iconBehaviour}`}>
-          {!!!sideIcon ? <img src={thumbUp} className="thumb-icon"></img> : sideIcon}
+          {!!!sideIcon ? <img src={thumbUp} className="thumb-icon"></img> : <p>{sideIcon}</p>}
         </div>
         <p>{tileContent}</p>
     </article>

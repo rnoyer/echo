@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import getDeck from "../services/service";
-import Card from "../components/card";
+import Card from "../components/Card"
 
 function App() {
   const [cardsDeck, setCardsDeck] = useState([]);

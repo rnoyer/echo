@@ -1,21 +1,21 @@
 .tile {
     display: flex;
-    gap: var(--spacing-mini);
+    gap: var(--spacing-small);
 
     .side-icon {
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #D9D9D9;
-        min-width: 32px;
-        border-radius: var(--spacing-mini);
+        min-width: var(--size-medium-300);
+        border-radius: var(--border-small-400);
     }
     
     .thumb-icon {
-        width: 23px;
+        width: var(--size-medium-200);
     }
 }
 
 .top {
-    height: 32px;
+    height: var(--size-medium-300);
 }
