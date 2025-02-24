@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App />} />
-        <Route path='/deck-mcc' element={<App />} />
+        <Route path='/echo' element={<App />} />
         <Route path='*' element={<Err404 />} />
       </Routes>
     </BrowserRouter>
