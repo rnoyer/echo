@@ -15,8 +15,8 @@ function App() {
         const deckData = await getDeck("/deck-mcc.json");
         setCardsDeck(deckData);
       } catch (error) {
-        navigate("/404");
         console.log(error);
+        navigate("/404");
       }
     };
     fetchDeckData();
