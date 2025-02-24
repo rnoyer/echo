@@ -25,15 +25,15 @@ function App() {
   return (
     <>
       <Card
-        key={cardsDeck[0]?.id}
-        discipline={cardsDeck[0]?.discipline}
-        poleNumber={cardsDeck[0]?.poleNumber}
-        poleTitre={cardsDeck[0]?.poleTitre}
-        activite={cardsDeck[0]?.activite}
-        tache={cardsDeck[0]?.tache}
-        titre={cardsDeck[0]?.titre}
-        competences={cardsDeck[0]?.competences}
-        resultats={cardsDeck[0]?.resultats}
+        key={cardsDeck[5]?.id}
+        discipline={cardsDeck[5]?.discipline}
+        poleNumber={cardsDeck[5]?.poleNumber}
+        poleTitre={cardsDeck[5]?.poleTitre}
+        activite={cardsDeck[5]?.activite}
+        tache={cardsDeck[5]?.tache}
+        titre={cardsDeck[5]?.titre}
+        competences={cardsDeck[5]?.competences}
+        resultats={cardsDeck[5]?.resultats}
       />
       {/* {cardsDeck?.map((card) => (<Card titre={card.titre} key={card.id} />))} */}
       {/* <Swiper
