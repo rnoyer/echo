@@ -1,8 +1,8 @@
 import "./Card.scss";
-import Pole from "./PoleTag";
 import Wrapper from "./Wrapper";
 import PoleSection from "./PoleSection";
 import ATSection from "./ATSection";
+import Tile from "./Tile";
 
 function Card({
   discipline,
@@ -21,10 +21,10 @@ function Card({
         <PoleSection poleTitre={poleTitre} poleNumber={poleNumber} />
         <ATSection activite={activite} tache={tache} titre={titre} />
         <Wrapper title="Résultats attendus" classCustom='wrapper-resultat'>
-          <p>liste</p>
+          {resultats?.map((item) => <Tile tileContent={item?.resultat} iconBehaviour="top" key={item?.resultat} /> )}
         </Wrapper>
         <Wrapper title="Compétences mobilisées" >
-          <p>liste</p>
+          {competences?.map((item) => <Tile tileContent={item?.competence} sideIcon={item?.id} iconBehaviour="stretch" key={item?.id} /> )}
         </Wrapper>
       </section>
     </div>
