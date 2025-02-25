@@ -1,4 +1,5 @@
 #root {
+  min-width: var(--card-min-width); // = 320-(2x10 padding)
   max-width: var(--card-max-width);
   margin: 0 auto;
   text-align: left;
