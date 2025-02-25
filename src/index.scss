@@ -16,6 +16,10 @@
   --size-small-100: clamp(0.063rem, 0.313vw, 0.125rem); // 0.313vw = 1px;
   --size-medium-200: clamp(1.438rem, 7.188vw, 2rem); // 7.188vw = 23px
   --size-medium-300: clamp(2rem, 10vw, 2.75rem); // 10vw = 32px
+  // Card dimension
+  --card-min-width: 300px;
+  --card-max-width: 440px;
+
 
   font-family: Ubuntu, Helvetica, Arial, sans-serif;
   line-height: 1.5;

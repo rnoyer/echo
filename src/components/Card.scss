@@ -3,12 +3,12 @@
     flex-direction: column;
     gap: var(--spacing-medium-100);
     background-color: #ECBB21;
-    min-width: 300px; // = 320-(2x10 padding)
-    max-width: 440px;
-    max-height: 978px;
+    min-width: var(--card-min-width); // = 320-(2x10 padding)
+    max-width: var(--card-max-width);
     aspect-ratio:  375 / 667 ;
     padding: var(--spacing-medium-100);
     border-radius: var(--border-large-200);
+    cursor: grab;
 
     .inner-card {
         flex: 1;
@@ -17,7 +17,7 @@
         gap: var(--spacing-medium-150);
         background-color: white;
         border-radius: var(--border-medium-100);
-        padding: var(--spacing-medium-100) var(--spacing-small);
+        padding: var(--spacing-medium-150) var(--spacing-medium-100);
 
         .wrapper-resultat {
             flex: 1;
