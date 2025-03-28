@@ -19,7 +19,7 @@ function DeckGrid() {
         setDeckList(formattedData);
       } catch (error) {
         console.log(error);
-        // navigate("/404");
+        navigate("/404");
       }
     };
     getDeckList();

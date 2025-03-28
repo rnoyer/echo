@@ -25,7 +25,7 @@ function App() {
         setCards(cardsData);
       } catch (error) {
         console.log(error);
-        // navigate("/404");
+        navigate("/404");
       }
     };
     getCards();
