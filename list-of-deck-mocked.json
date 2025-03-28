@@ -1,0 +1,61 @@
+[
+    {
+        "filiere": "mcc",
+        "deck": [
+            {
+                "id": 0,
+                "cardColor": "#ECBB21",
+                "name": "Enseignement Professionnel",
+                "subDeck": true,
+                "url": "./deck-mcc.json"
+            },
+            {
+                "id": 1,
+                "cardColor": "#E08E3D",
+                "name": "Mathématique",
+                "subDeck": false,
+                "url": "./deck-mocked.json"
+            },
+            {
+                "id": 2,
+                "cardColor": "#3D87E0",
+                "name": "Français",
+                "subDeck": false,
+                "url": "./deck-mocked.json"
+            },
+            {
+                "id": 3,
+                "cardColor": "#4B5561",
+                "name": "Anglais",
+                "subDeck": false,
+                "url": "./deck-mocked.json"
+            },
+            {
+                "id": 4,
+                "cardColor": "#615C4B",
+                "name": "Physique",
+                "subDeck": false,
+                "url": "./deck-mocked.json"
+            }
+        ]
+    },
+    {
+        "filiere": "scientifique",
+        "deck": [
+            {
+                "id": 4,
+                "cardColor": "#615C4B",
+                "name": "Physique",
+                "subDeck": false,
+                "url": "./deck-mocked.json"
+            },
+            {
+                "id": 1,
+                "cardColor": "#E08E3D",
+                "name": "Mathématique",
+                "subDeck": false,
+                "url": "./deck-mocked.json"
+            }
+        ]
+    }
+]
