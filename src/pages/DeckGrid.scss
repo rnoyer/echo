@@ -1,0 +1,6 @@
+.deck-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-medium-200);
+    padding: var(--spacing-medium-200);
+}

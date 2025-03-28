@@ -1,8 +1,8 @@
 :root {
   // globally used variables
   // Spacing
-  --spacing-small: 4px; 
-  --spacing-medium-100: 8px; 
+  --spacing-small: 4px;
+  --spacing-medium-100: 8px;
   --spacing-medium-150: 14px;
   --spacing-medium-200: 20px;
   // Font-size
@@ -20,6 +20,11 @@
   --card-min-width: 300px;
   --card-max-width: 440px;
 
+  //color
+  --echo-orange: #FFB300;
+  --echo-dark: #213547;
+  --enseignement-pro: #ECBB21;
+
 
   font-family: Ubuntu, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -36,14 +41,15 @@ body {
   display: flex;
   place-items: center;
   min-height: 100vh;
+  background-color: var(--echo-dark);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-}
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     color: var(--echo-dark);
+//     background-color: #ffffff;
+//   }
+// }
 
 h1 {
   font-size: var(--font-200);

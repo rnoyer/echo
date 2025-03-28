@@ -1,5 +1,5 @@
 import "./Tile.scss";
-import thumbUp from "../assets/thumbs-up-solid.svg"
+import thumbUp from "/src/assets/thumbs-up-solid.svg"
 
 function Tile({ tileContent, sideIcon, iconBehaviour ="top" }) {
   return (

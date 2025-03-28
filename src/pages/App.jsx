@@ -1,33 +1,40 @@
 import "./App.scss";
 import "swiper/css";
 import "swiper/css/keyboard";
-import "swiper/css/pagination"
+import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Pagination } from "swiper/modules";
-import { useState, useEffect } from "react";
-import { useNavigate } from "react-router";
-import getDeck from "../services/service";
-import Card from "../components/Card";
+import Card from "../components/card/Card";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router";
 
 function App() {
-  const [cardsDeck, setCardsDeck] = useState([]);
-  const navigate = useNavigate();
+  const { subDeckId } = useParams();
+  const [cards, setCards] = useState();
+
   useEffect(() => {
-    const fetchDeckData = async () => {
+    const getCards = async () => {
       try {
-        const deckData = await getDeck("./deck-mcc.json");
-        setCardsDeck(deckData);
+        const url = "/deck-mcc.json";
+        const response = await fetch(url);
+        const data = await response.json();
+        const cardsData = await data.find(
+          (item) => item.id === parseInt(subDeckId)
+        );
+
+        setCards(cardsData);
       } catch (error) {
         console.log(error);
-        navigate("/404");
+        // navigate("/404");
       }
     };
-    fetchDeckData();
+    getCards();
   }, []);
 
   return (
-    <>
+    <div>
       <Swiper
+        className="swiper"
         spaceBetween={10}
         slidesPerView={1}
         loop={true}
@@ -38,10 +45,10 @@ function App() {
           enabled: true,
         }}
         modules={[Keyboard, Pagination]}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
-        {cardsDeck?.map((card) => (
+        {cards?.cardSet.map((card) => (
           <SwiperSlide key={card.id}>
             <Card
               discipline={card.discipline}
@@ -52,22 +59,12 @@ function App() {
               titre={card.titre}
               competences={card.competences}
               resultats={card.resultats}
+              cardColor={cards.cardColor}
             />
           </SwiperSlide>
         ))}
       </Swiper>
-      {/* <Card
-        key={cardsDeck[5]?.id}
-        discipline={cardsDeck[5]?.discipline}
-        poleNumber={cardsDeck[5]?.poleNumber}
-        poleTitre={cardsDeck[5]?.poleTitre}
-        activite={cardsDeck[5]?.activite}
-        tache={cardsDeck[5]?.tache}
-        titre={cardsDeck[5]?.titre}
-        competences={cardsDeck[5]?.competences}
-        resultats={cardsDeck[5]?.resultats}
-      /> */}
-    </>
+    </div>
   );
 }
 

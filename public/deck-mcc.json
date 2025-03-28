@@ -1,500 +1,521 @@
 [
     {
-        "id":1,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A1",
-        "tache":"T1",
-        "titre":"Prendre connaissance des données de production et proposer, le cas échéant, des alternatives d’organisation au responsable d’atelier.",
-        "competences":[
+        "id": 0,
+        "subSetName": "Pôle 1",
+        "cardColor": "#ECBB21",
+        "cardSet": [
             {
-                "id":"CP1",
-                "competence":"Rechercher une information, en local ou à distance, pour agir."
+                "id": 1,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A1",
+                "tache": "T1",
+                "titre": "Prendre connaissance des données de production et proposer, le cas échéant, des alternatives d’organisation au responsable d’atelier.",
+                "competences": [
+                    {
+                        "id": "CP1",
+                        "competence": "Rechercher une information, en local ou à distance, pour agir."
+                    },
+                    {
+                        "id": "CP3",
+                        "competence": "Contribuer à l’adaptation de l’organisation de la production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su identifier les données de production, ce qui m’a permis d’effectuer la tâche selon l’organisation prévue, et/ou proposer une alternative."
+                    }
+                ]
             },
             {
-                "id":"CP3",
-                "competence":"Contribuer à l’adaptation de l’organisation de la production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su identifier les données de production, ce qui m’a permis d’effectuer la tâche selon l’organisation prévue, et/ou proposer une alternative."
-            }
-        ]
-    },
-    {
-        "id":2,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A1",
-        "tache":"T2",
-        "titre":"Vérifier la disponibilité des matériels et matières d’œuvre nécessaires et aménager les circulations des flux.",
-        "competences":[
-            {
-                "id":"CP1",
-                "competence":"Rechercher une information, en local ou à distance, pour agir."
+                "id": 2,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A1",
+                "tache": "T2",
+                "titre": "Vérifier la disponibilité des matériels et matières d’œuvre nécessaires et aménager les circulations des flux.",
+                "competences": [
+                    {
+                        "id": "CP1",
+                        "competence": "Rechercher une information, en local ou à distance, pour agir."
+                    },
+                    {
+                        "id": "CP3",
+                        "competence": "Contribuer à l’adaptation de l’organisation de la production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su rassembler les matériels en veillant à la sécurité (fiche de consignes), et veiller à la fluidité de circulation des MO"
+                    }
+                ]
             },
             {
-                "id":"CP3",
-                "competence":"Contribuer à l’adaptation de l’organisation de la production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su rassembler les matériels en veillant à la sécurité (fiche de consignes), et veiller à la fluidité de circulation des MO"
-            }
-        ]
-    },
-    {
-        "id":3,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A1",
-        "tache":"T3",
-        "titre":"Assurer les réglages au poste.",
-        "competences":[
-            {
-                "id":"CP1",
-                "competence":"Rechercher une information, en local ou à distance, pour agir."
+                "id": 3,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A1",
+                "tache": "T3",
+                "titre": "Assurer les réglages au poste.",
+                "competences": [
+                    {
+                        "id": "CP1",
+                        "competence": "Rechercher une information, en local ou à distance, pour agir."
+                    },
+                    {
+                        "id": "CP3",
+                        "competence": "Contribuer à l’adaptation de l’organisation de la production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su régler mon poste et réaliser des tests pour m’assurer de la conformité aux données de production (ex : nombre de pts/cm)."
+                    }
+                ]
             },
             {
-                "id":"CP3",
-                "competence":"Contribuer à l’adaptation de l’organisation de la production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su régler mon poste et réaliser des tests pour m’assurer de la conformité aux données de production (ex : nombre de pts/cm)."
-            }
-        ]
-    },
-    {
-        "id":4,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A1",
-        "tache":"T4",
-        "titre":"Assurer la maintenance de premier niveau.",
-        "competences":[
-            {
-                "id":"CP1",
-                "competence":"Rechercher une information, en local ou à distance, pour agir."
+                "id": 4,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A1",
+                "tache": "T4",
+                "titre": "Assurer la maintenance de premier niveau.",
+                "competences": [
+                    {
+                        "id": "CP1",
+                        "competence": "Rechercher une information, en local ou à distance, pour agir."
+                    },
+                    {
+                        "id": "CP3",
+                        "competence": "Contribuer à l’adaptation de l’organisation de la production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su réaliser la maintenance de premier niveau planifiée, et la consigner sur la fiche de suivi le cas échéant."
+                    }
+                ]
             },
             {
-                "id":"CP3",
-                "competence":"Contribuer à l’adaptation de l’organisation de la production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su réaliser la maintenance de premier niveau planifiée, et la consigner sur la fiche de suivi le cas échéant."
-            }
-        ]
-    },
-    {
-        "id":5,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A2",
-        "tache":"T1",
-        "titre":"Utiliser les données techniques de confection et s’approprier les caractéristiques des matières, fournitures et matériels.",
-        "competences":[
-            {
-                "id":"CP2",
-                "competence":"Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su identifier les contraintes matières, matériels et d’espace."
+                "id": 5,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A2",
+                "tache": "T1",
+                "titre": "Utiliser les données techniques de confection et s’approprier les caractéristiques des matières, fournitures et matériels.",
+                "competences": [
+                    {
+                        "id": "CP2",
+                        "competence": "Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su identifier les contraintes matières, matériels et d’espace."
+                    },
+                    {
+                        "resultat": "J’ai su identifier, rassembler et extraire les données des différents documents du dossier technique."
+                    }
+                ]
             },
             {
-                "resultat": "J’ai su identifier, rassembler et extraire les données des différents documents du dossier technique."
-            }
-        ]
-    },
-    {
-        "id":6,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A2",
-        "tache":"T2",
-        "titre":"Vérifier et ajuster si nécessaire les patrons et ou patronnages industriels informatisés ou non.",
-        "competences":[
-            {
-                "id":"CP2",
-                "competence":"Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su identifier les tableaux de mesures, les solutions technologiques, les éléments du patron et/ou patronnage afin de les vérifier et de les ajuster."
-            }
-        ]
-    },
-    {
-        "id":7,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A2",
-        "tache":"T3",
-        "titre":"Effectuer les opérations de placement, de matelassage et de coupe unitaire ou sérielle, informatisées ou non.",
-        "competences":[
-            {
-                "id":"CP2",
-                "competence":"Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su respecter les contraintes techniques de la MO lors du placement, et réaliser les opérations de coupe  et/ou  de matelassage conformément au dossier technique."
-            }
-        ]
-    },
-    {
-        "id":8,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 1,
-        "poleTitre":"Préparation d’une production",
-        "activite":"A2",
-        "tache":"T4",
-        "titre":"Préparer les éléments pour le montage : thermocollage, préformage, broderie, matelassage, plaquage, impressions de motifs…",
-        "competences":[
-            {
-                "id":"CP2",
-                "competence":"Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su identifier et réaliser les opérations de préparation des éléments pour le montage, conformément aux attendus des données techniques."
-            }
-        ]
-    },
-    {
-        "id":9,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A3",
-        "tache":"T1",
-        "titre":"Réaliser les autocontrôles à chaque intervention et contribuer au contrôle du produit.",
-        "competences":[
-            {
-                "id":"CP6",
-                "competence":"Consigner les données de production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su effectuer les autocontrôles après chaque opération conformément aux données de production."
+                "id": 6,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A2",
+                "tache": "T2",
+                "titre": "Vérifier et ajuster si nécessaire les patrons et ou patronnages industriels informatisés ou non.",
+                "competences": [
+                    {
+                        "id": "CP2",
+                        "competence": "Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su identifier les tableaux de mesures, les solutions technologiques, les éléments du patron et/ou patronnage afin de les vérifier et de les ajuster."
+                    }
+                ]
             },
             {
-                "resultat": "J’ai su suivre la procédure qualité lors du contrôle final,  et proposer des actions en cas de défauts constatés."
-            }
-        ]
-    },
-    {
-        "id":10,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A3",
-        "tache":"T2",
-        "titre":"Repérer les défauts éventuels issus des opérations précédentes et en rendre compte.",
-        "competences":[
-            {
-                "id":"CP6",
-                "competence":"Consigner les données de production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su repérer les défauts de fabrication des opérations précédentes et les signaler au bon interlocuteur en endossant une posture professionnelle."
-            }
-        ]
-    },
-    {
-        "id":11,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A3",
-        "tache":"T3",
-        "titre":"Détecter et signaler des anomalies matières et fournitures.",
-        "competences":[
-            {
-                "id":"CP6",
-                "competence":"Consigner les données de production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su repérer les anomalies matières et fournitures et les signaler au bon interlocuteur."
-            }
-        ]
-    },
-    {
-        "id":12,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A3",
-        "tache":"T4",
-        "titre":"Renseigner les documents de suivi de la production.",
-        "competences":[
-            {
-                "id":"CP6",
-                "competence":"Consigner les données de production."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su correctement compléter les fiches de suivi de production."
-            }
-        ]
-    },
-    {
-        "id":13,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A4",
-        "tache":"T1",
-        "titre":"Utiliser les données techniques de fabrication.",
-        "competences":[
-            {
-                "id":"CP4",
-                "competence":"Appliquer les réglages et méthodes pour produire."
+                "id": 7,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A2",
+                "tache": "T3",
+                "titre": "Effectuer les opérations de placement, de matelassage et de coupe unitaire ou sérielle, informatisées ou non.",
+                "competences": [
+                    {
+                        "id": "CP2",
+                        "competence": "Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su respecter les contraintes techniques de la MO lors du placement, et réaliser les opérations de coupe  et/ou  de matelassage conformément au dossier technique."
+                    }
+                ]
             },
             {
-                "id":"CP5",
-                "competence":"Réaliser les opérations de production en préparation, fabrication et finition."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su identifier et utiliser les fiches de consignes au poste, les gammes de montage et de fabrication, les dessins techniques, et autre document utile à la fabrication."
-            }
-        ]
-    },
-    {
-        "id":14,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A4",
-        "tache":"T2",
-        "titre":"Réaliser les opérations de montage des éléments de produit et du produit dans le temps imparti.",
-        "competences":[
-            {
-                "id":"CP4",
-                "competence":"Appliquer les réglages et méthodes pour produire."
-            },
-            {
-                "id":"CP5",
-                "competence":"Réaliser les opérations de production en préparation, fabrication et finition."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su respecter les contraintes des MO et les consignes des documents techniques lors des opérations de montage."
-            },
-            {
-                "resultat": "J’ai su respecter les délais."
+                "id": 8,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 1,
+                "poleTitre": "Préparation d’une production",
+                "activite": "A2",
+                "tache": "T4",
+                "titre": "Préparer les éléments pour le montage : thermocollage, préformage, broderie, matelassage, plaquage, impressions de motifs…",
+                "competences": [
+                    {
+                        "id": "CP2",
+                        "competence": "Appréhender les solutions constructives en adéquation avec MO, matériels, équipements, fournitures."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su identifier et réaliser les opérations de préparation des éléments pour le montage, conformément aux attendus des données techniques."
+                    }
+                ]
             }
         ]
     },
     {
-        "id":15,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A4",
-        "tache":"T3",
-        "titre":"Réaliser les opérations de repassage tout au long de la confection du produit dans le temps imparti.",
-        "competences":[
+        "id": 1,
+        "subSetName": "Pôle 2",
+        "cardColor": "#ECBB21",
+        "cardSet": [
             {
-                "id":"CP4",
-                "competence":"Appliquer les réglages et méthodes pour produire."
+                "id": 9,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A3",
+                "tache": "T1",
+                "titre": "Réaliser les autocontrôles à chaque intervention et contribuer au contrôle du produit.",
+                "competences": [
+                    {
+                        "id": "CP6",
+                        "competence": "Consigner les données de production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su effectuer les autocontrôles après chaque opération conformément aux données de production."
+                    },
+                    {
+                        "resultat": "J’ai su suivre la procédure qualité lors du contrôle final,  et proposer des actions en cas de défauts constatés."
+                    }
+                ]
             },
             {
-                "id":"CP5",
-                "competence":"Réaliser les opérations de production en préparation, fabrication et finition."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su respecter les contraintes et les spécificités des MO lors des opérations de repassage."
+                "id": 10,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A3",
+                "tache": "T2",
+                "titre": "Repérer les défauts éventuels issus des opérations précédentes et en rendre compte.",
+                "competences": [
+                    {
+                        "id": "CP6",
+                        "competence": "Consigner les données de production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su repérer les défauts de fabrication des opérations précédentes et les signaler au bon interlocuteur en endossant une posture professionnelle."
+                    }
+                ]
             },
             {
-                "resultat": "J’ai su respecter les délais."
+                "id": 11,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A3",
+                "tache": "T3",
+                "titre": "Détecter et signaler des anomalies matières et fournitures.",
+                "competences": [
+                    {
+                        "id": "CP6",
+                        "competence": "Consigner les données de production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su repérer les anomalies matières et fournitures et les signaler au bon interlocuteur."
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A3",
+                "tache": "T4",
+                "titre": "Renseigner les documents de suivi de la production.",
+                "competences": [
+                    {
+                        "id": "CP6",
+                        "competence": "Consigner les données de production."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su correctement compléter les fiches de suivi de production."
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A4",
+                "tache": "T1",
+                "titre": "Utiliser les données techniques de fabrication.",
+                "competences": [
+                    {
+                        "id": "CP4",
+                        "competence": "Appliquer les réglages et méthodes pour produire."
+                    },
+                    {
+                        "id": "CP5",
+                        "competence": "Réaliser les opérations de production en préparation, fabrication et finition."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su identifier et utiliser les fiches de consignes au poste, les gammes de montage et de fabrication, les dessins techniques, et autre document utile à la fabrication."
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A4",
+                "tache": "T2",
+                "titre": "Réaliser les opérations de montage des éléments de produit et du produit dans le temps imparti.",
+                "competences": [
+                    {
+                        "id": "CP4",
+                        "competence": "Appliquer les réglages et méthodes pour produire."
+                    },
+                    {
+                        "id": "CP5",
+                        "competence": "Réaliser les opérations de production en préparation, fabrication et finition."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su respecter les contraintes des MO et les consignes des documents techniques lors des opérations de montage."
+                    },
+                    {
+                        "resultat": "J’ai su respecter les délais."
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A4",
+                "tache": "T3",
+                "titre": "Réaliser les opérations de repassage tout au long de la confection du produit dans le temps imparti.",
+                "competences": [
+                    {
+                        "id": "CP4",
+                        "competence": "Appliquer les réglages et méthodes pour produire."
+                    },
+                    {
+                        "id": "CP5",
+                        "competence": "Réaliser les opérations de production en préparation, fabrication et finition."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su respecter les contraintes et les spécificités des MO lors des opérations de repassage."
+                    },
+                    {
+                        "resultat": "J’ai su respecter les délais."
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 2,
+                "poleTitre": "Réalisation d’une production",
+                "activite": "A4",
+                "tache": "T4",
+                "titre": "Réaliser les opérations de finition dans le temps imparti.",
+                "competences": [
+                    {
+                        "id": "CP4",
+                        "competence": "Appliquer les réglages et méthodes pour produire."
+                    },
+                    {
+                        "id": "CP5",
+                        "competence": "Réaliser les opérations de production en préparation, fabrication et finition."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su m’adapter aux spécifications de la MO pour réaliser les opérations de finitions conformément au dossier technique."
+                    },
+                    {
+                        "resultat": "J’ai su respecter les délais."
+                    }
+                ]
             }
         ]
     },
     {
-        "id":16,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 2,
-        "poleTitre":"Réalisation d’une production",
-        "activite":"A4",
-        "tache":"T4",
-        "titre":"Réaliser les opérations de finition dans le temps imparti.",
-        "competences":[
+        "id": 2,
+        "subSetName": "Pôle 3",
+        "cardColor": "#ECBB21",
+        "cardSet": [
             {
-                "id":"CP4",
-                "competence":"Appliquer les réglages et méthodes pour produire."
+                "id": 17,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 3,
+                "poleTitre": "Participation à l’amélioration des productions",
+                "activite": "A5",
+                "tache": "T1",
+                "titre": "Contribuer à l’amélioration de la performance globale par des retours d’expérience.",
+                "competences": [
+                    {
+                        "id": "CP7",
+                        "competence": "Formuler des propositions et les communiquer sous forme écrite et orale."
+                    },
+                    {
+                        "id": "CP8",
+                        "competence": "Partager les expériences favorisant le développement professionnel et personnel."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su proposer et décrire dans une posture pro, des pistes de solutions pour améliorer la performance globale."
+                    }
+                ]
             },
             {
-                "id":"CP5",
-                "competence":"Réaliser les opérations de production en préparation, fabrication et finition."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su m’adapter aux spécifications de la MO pour réaliser les opérations de finitions conformément au dossier technique."
+                "id": 18,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 3,
+                "poleTitre": "Participation à l’amélioration des productions",
+                "activite": "A5",
+                "tache": "T2",
+                "titre": "Participer au travail d’équipe de production et rendre compte pour le collectif.",
+                "competences": [
+                    {
+                        "id": "CP7",
+                        "competence": "Formuler des propositions et les communiquer sous forme écrite et orale."
+                    },
+                    {
+                        "id": "CP8",
+                        "competence": "Partager les expériences favorisant le développement professionnel et personnel."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai participé aux réunions d’équipe et j’ai su partager de façon adaptée (vocabulaire technique, savoir être)."
+                    }
+                ]
             },
             {
-                "resultat": "J’ai su respecter les délais."
-            }
-        ]
-    },
-    {
-        "id":17,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 3,
-        "poleTitre":"Participation à l’amélioration des productions",
-        "activite":"A5",
-        "tache":"T1",
-        "titre":"Contribuer à l’amélioration de la performance globale par des retours d’expérience.",
-        "competences":[
-            {
-                "id":"CP7",
-                "competence":"Formuler des propositions et les communiquer sous forme écrite et orale."
+                "id": 19,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 3,
+                "poleTitre": "Participation à l’amélioration des productions",
+                "activite": "A5",
+                "tache": "T3",
+                "titre": "Contribuer à l’intégration de nouveaux personnels par des échanges de pratiques.",
+                "competences": [
+                    {
+                        "id": "CP7",
+                        "competence": "Formuler des propositions et les communiquer sous forme écrite et orale."
+                    },
+                    {
+                        "id": "CP8",
+                        "competence": "Partager les expériences favorisant le développement professionnel et personnel."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su participer à l’intégration des nouveaux collègues par des discussions adaptées sur le travail dans l’entreprise."
+                    }
+                ]
             },
             {
-                "id":"CP8",
-                "competence":"Partager les expériences favorisant le développement professionnel et personnel."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su proposer et décrire dans une posture pro, des pistes de solutions pour améliorer la performance globale."
-            }
-        ]
-    },
-    {
-        "id":18,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 3,
-        "poleTitre":"Participation à l’amélioration des productions",
-        "activite":"A5",
-        "tache":"T2",
-        "titre":"Participer au travail d’équipe de production et rendre compte pour le collectif.",
-        "competences":[
-            {
-                "id":"CP7",
-                "competence":"Formuler des propositions et les communiquer sous forme écrite et orale."
+                "id": 20,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 3,
+                "poleTitre": "Participation à l’amélioration des productions",
+                "activite": "A6",
+                "tache": "T1",
+                "titre": "Réduire les gaspillages, trier les déchets selon la procédure.",
+                "competences": [
+                    {
+                        "id": "CP9",
+                        "competence": " Accroître son expertise en se professionnalisant."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su éviter les gaspillages et trier les déchets tel que l’on me l’a indiqué."
+                    }
+                ]
             },
             {
-                "id":"CP8",
-                "competence":"Partager les expériences favorisant le développement professionnel et personnel."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai participé aux réunions d’équipe et j’ai su partager de façon adaptée (vocabulaire technique, savoir être)."
-            }
-        ]
-    },
-    {
-        "id":19,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 3,
-        "poleTitre":"Participation à l’amélioration des productions",
-        "activite":"A5",
-        "tache":"T3",
-        "titre":"Contribuer à l’intégration de nouveaux personnels par des échanges de pratiques.",
-        "competences":[
-            {
-                "id":"CP7",
-                "competence":"Formuler des propositions et les communiquer sous forme écrite et orale."
+                "id": 21,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 3,
+                "poleTitre": "Participation à l’amélioration des productions",
+                "activite": "A6",
+                "tache": "T2",
+                "titre": "Prévenir les risques pour la santé au travail.",
+                "competences": [
+                    {
+                        "id": "CP9",
+                        "competence": " Accroître son expertise en se professionnalisant."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su repérer les risques pour la santé au travail et j’ai veillé à m’en protéger, et à protéger les autres."
+                    }
+                ]
             },
             {
-                "id":"CP8",
-                "competence":"Partager les expériences favorisant le développement professionnel et personnel."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su participer à l’intégration des nouveaux collègues par des discussions adaptées sur le travail dans l’entreprise."
-            }
-        ]
-    },
-    {
-        "id":20,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 3,
-        "poleTitre":"Participation à l’amélioration des productions",
-        "activite":"A6",
-        "tache":"T1",
-        "titre":"Réduire les gaspillages, trier les déchets selon la procédure.",
-        "competences":[
-            {
-                "id":"CP9",
-                "competence":" Accroître son expertise en se professionnalisant."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su éviter les gaspillages et trier les déchets tel que l’on me l’a indiqué."
-            }
-        ]
-    },
-    {
-        "id":21,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 3,
-        "poleTitre":"Participation à l’amélioration des productions",
-        "activite":"A6",
-        "tache":"T2",
-        "titre":"Prévenir les risques pour la santé au travail.",
-        "competences":[
-            {
-                "id":"CP9",
-                "competence":" Accroître son expertise en se professionnalisant."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su repérer les risques pour la santé au travail et j’ai veillé à m’en protéger, et à protéger les autres."
-            }
-        ]
-    },
-    {
-        "id":22,
-        "discipline":"Enseignement Professionnel",
-        "poleNumber": 3,
-        "poleTitre":"Participation à l’amélioration des productions",
-        "activite":"A6",
-        "tache":"T3",
-        "titre":"S’engager dans les démarches de RSE et respecter les procédures de labellisation.",
-        "competences":[
-            {
-                "id":"CP9",
-                "competence":" Accroître son expertise en se professionnalisant."
-            }
-        ],
-        "resultats":[
-            {
-                "resultat": "J’ai su appliquer les démarches RSE définie par la Commission européenne comme la responsabilité des entreprises vis-à-vis des effets qu'elles exercent sur la société, et j’ai su respecter les procédure en termes de labellisation."
+                "id": 22,
+                "discipline": "Enseignement Professionnel",
+                "poleNumber": 3,
+                "poleTitre": "Participation à l’amélioration des productions",
+                "activite": "A6",
+                "tache": "T3",
+                "titre": "S’engager dans les démarches de RSE et respecter les procédures de labellisation.",
+                "competences": [
+                    {
+                        "id": "CP9",
+                        "competence": " Accroître son expertise en se professionnalisant."
+                    }
+                ],
+                "resultats": [
+                    {
+                        "resultat": "J’ai su appliquer les démarches RSE définie par la Commission européenne comme la responsabilité des entreprises vis-à-vis des effets qu'elles exercent sur la société, et j’ai su respecter les procédure en termes de labellisation."
+                    }
+                ]
             }
         ]
     }

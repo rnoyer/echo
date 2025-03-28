@@ -1,0 +1,14 @@
+[
+    {
+        "filiere": "mcc",
+        "deck": [
+            {
+                "id": 0,
+                "cardColor": "#ECBB21",
+                "name": "Enseignement Professionnel",
+                "subDeck": true,
+                "url": "./deck-mcc.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+a {
+    all: unset;
+}
+
+.previous-link {
+    place-self: center;
+    display: flex;
+    background-color: var(--echo-dark);
+    border-radius: 999px;
+    border: 2px solid var(--echo-orange);
+
+    img {
+        all: unset;
+        aspect-ratio: 1 / 1;
+        width: 30px;
+        margin: 10px;
+    }
+}
