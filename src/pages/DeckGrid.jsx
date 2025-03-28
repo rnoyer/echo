@@ -11,7 +11,7 @@ function DeckGrid() {
   useEffect(() => {
     const getDeckList = async () => {
       try {
-        const url = "/list-of-deck.json";
+        const url = "./list-of-deck.json";
         const response = await fetch(url);
         const data = await response.json();
         const filiereData = await data.find((item) => item.filiere === filiere);

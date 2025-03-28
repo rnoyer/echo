@@ -12,7 +12,7 @@ function SubDeckGrid() {
   useEffect(() => {
     const getSubDeckList = async () => {
       try {
-        const url = "/deck-mcc.json";
+        const url = "./deck-mcc.json";
         const response = await fetch(url);
         const data = await response.json();
 
