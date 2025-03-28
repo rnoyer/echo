@@ -7,7 +7,7 @@
                 "cardColor": "#ECBB21",
                 "name": "Enseignement Professionnel",
                 "subDeck": true,
-                "url": "./deck-mcc.json"
+                "url": "data/deck-mcc.json"
             }
         ]
     }
