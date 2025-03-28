@@ -22,7 +22,7 @@ function Card({
     <div className="outer-card" style={{ backgroundColor: cardColor }}>
       <div className="card-header">
         <h1>{discipline}</h1>
-        <Link to={`/${deckId}`} className="card-header--menu">
+        <Link to={`/echo/${deckId}`} className="card-header--menu">
           <img src={previous} alt="" />
         </Link>
       </div>

@@ -36,15 +36,16 @@ function SubDeckGrid() {
     <>
       <div className="deck-list-container">
         {subDeckList?.map((subDeck) => (
-          <Link to={`/${deckId}/${subDeck.id}`} key={subDeck.id}>
+          <Link to={`/echo/${deckId}/${subDeck.id}`} key={subDeck.id}>
             <Miniature
-              name={subDeck.subSetName}
+              title={subDeck.subSetName}
+              description={subDeck.cardSet[0].poleTitre}
               cardColor={subDeck.cardColor}
             />
           </Link>
         ))}
       </div>
-      <Previous path="/" />
+      <Previous path="/echo/" />
     </>
   );
 }

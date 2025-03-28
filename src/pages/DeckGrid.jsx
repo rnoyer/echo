@@ -12,7 +12,6 @@ function DeckGrid() {
     const getDeckList = async () => {
       try {
         const url = `${import.meta.env.BASE_URL}data/list-of-deck.json`;
-        console.log("Fetching URL:", url);
         const response = await fetch(url);
 
         if (!response.ok) {
@@ -35,8 +34,8 @@ function DeckGrid() {
   return (
     <div className="deck-list-container">
       {deckList?.map((deck) => (
-        <Link to={`/${deck.id}`} key={deck.id}>
-          <Miniature name={deck.name} cardColor={deck.cardColor} />
+        <Link to={`/echo/${deck.id}`} key={deck.id}>
+          <Miniature title={deck.name} cardColor={deck.cardColor} />
         </Link>
       ))}
     </div>

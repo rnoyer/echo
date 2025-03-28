@@ -13,8 +13,8 @@ createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<DeckGrid />} />
         <Route path="/echo" element={<DeckGrid />} />
-        <Route path="/:deckId" element={<SubDeckGrid />} />
-        <Route path="/:deckId/:subDeckId" element={<App />} />
+        <Route path="/echo/:deckId" element={<SubDeckGrid />} />
+        <Route path="/echo/:deckId/:subDeckId" element={<App />} />
         <Route path="*" element={<Err404 />} />
       </Routes>
     </BrowserRouter>

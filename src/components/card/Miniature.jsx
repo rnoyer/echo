@@ -1,7 +1,7 @@
 import "./Miniature.scss";
 import quoteDark from "/src/assets/quote-dark.svg";
 
-function Miniature({ name, cardColor }) {
+function Miniature({ title, description, cardColor }) {
   return (
     <div className="card-deck">
       <div
@@ -12,7 +12,8 @@ function Miniature({ name, cardColor }) {
           <img src={quoteDark} alt="" />
         </div>
         <section className="inner-card inner-mini">
-          <p>{name}</p>
+          <h2 className="title">{title}</h2>
+          <p className="description">{description}</p>
         </section>
       </div>
     </div>
