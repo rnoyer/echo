@@ -7,7 +7,24 @@
                 "cardColor": "#ECBB21",
                 "name": "Enseignement Professionnel",
                 "subDeck": true,
-                "url": "data/deck-mcc.json"
+                "url": "data/deck-mcc.json",
+                "active": true
+            },
+            {
+                "id": 1,
+                "cardColor": "#E08E3D",
+                "name": "Mathématique",
+                "subDeck": false,
+                "url": "data/deck-mocked.json",
+                "active": false
+            },
+            {
+                "id": 2,
+                "cardColor": "#3D87E0",
+                "name": "Français",
+                "subDeck": false,
+                "url": "data/deck-mocked.json",
+                "active": false
             }
         ]
     }
