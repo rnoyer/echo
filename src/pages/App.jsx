@@ -15,8 +15,13 @@ function App() {
   useEffect(() => {
     const getCards = async () => {
       try {
-        const url = "./deck-mcc.json";
+        const url = `${import.meta.env.BASE_URL}data/deck-mcc.json`;
         const response = await fetch(url);
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
         const data = await response.json();
         const cardsData = await data.find(
           (item) => item.id === parseInt(subDeckId)

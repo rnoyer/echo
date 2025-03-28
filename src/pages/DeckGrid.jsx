@@ -11,15 +11,22 @@ function DeckGrid() {
   useEffect(() => {
     const getDeckList = async () => {
       try {
-        const url = "./list-of-deck.json";
+        const url = `${import.meta.env.BASE_URL}data/list-of-deck.json`;
+        console.log("Fetching URL:", url);
         const response = await fetch(url);
+
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
         const data = await response.json();
+
         const filiereData = await data.find((item) => item.filiere === filiere);
         const formattedData = filiereData.deck;
         setDeckList(formattedData);
       } catch (error) {
-        console.log(error);
-        navigate("/404");
+        console.error(error);
+        // navigate("/404");
       }
     };
     getDeckList();
