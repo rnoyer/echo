@@ -33,11 +33,23 @@ function DeckGrid() {
 
   return (
     <div className="deck-list-container">
-      {deckList?.map((deck) => (
-        <Link to={`/echo/${deck.id}`} key={deck.id}>
-          <Miniature title={deck.name} cardColor={deck.cardColor} />
-        </Link>
-      ))}
+      {deckList?.map((deck) =>
+        deck.active ? (
+          <Link to={`/echo/${deck.id}`} key={deck.id}>
+            <Miniature
+              title={deck.name}
+              cardColor={deck.cardColor}
+              isActive={deck.active}
+            />
+          </Link>
+        ) : (
+          <Miniature
+            title={deck.name}
+            cardColor={deck.cardColor}
+            isActive={deck.active}
+          />
+        )
+      )}
     </div>
   );
 }

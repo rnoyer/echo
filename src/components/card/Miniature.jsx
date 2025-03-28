@@ -1,9 +1,9 @@
 import "./Miniature.scss";
 import quoteDark from "/src/assets/quote-dark.svg";
 
-function Miniature({ title, description, cardColor }) {
+function Miniature({ title, description, cardColor, isActive = true }) {
   return (
-    <div className="card-deck">
+    <div className={isActive ? `card-deck` : `card-deck inactive`}>
       <div
         className="outer-card outer-mini"
         style={{ backgroundColor: cardColor }}

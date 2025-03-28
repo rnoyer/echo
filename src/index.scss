@@ -6,6 +6,7 @@
   --spacing-medium-150: 14px;
   --spacing-medium-200: 20px;
   // Font-size
+  --font-140: clamp(0.75rem, 4vw, 1.375rem); // 5vw = 16px
   --font-160: clamp(1rem, 5vw, 1.375rem); // 5vw = 16px
   --font-200: clamp(1.25rem, 6.25vw, 1.7rem); // 6.25vw = 20px
   // Border radius

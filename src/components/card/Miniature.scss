@@ -10,9 +10,22 @@
 }
 
 .title {
-    font-size: 22px;
+    font-size: var(--font-140);
 }
 
 .description {
     font-size: 20px;
+}
+
+.inactive {
+    filter: grayscale(1);
+    color: rgb(93, 93, 93);
+
+    .outer-mini {
+        cursor: not-allowed;
+    }
+
+    .inner-mini {
+        background-color: rgb(196, 196, 196);
+    }
 }
